@@ -9,6 +9,6 @@ resource "aws_instance" "sonarqube" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "sonarqube-svr"
+    Name = "wales-sonarqube-svr"
   }
 }
